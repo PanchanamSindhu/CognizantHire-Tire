@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.cog.test.Sample1;
+
+class JunitTestCases {
+
+	@Test
+	public void addNumbers() {
+		System.out.println("test case for Role of the employee");
+		assertEquals(15, Sample1.add(10, 5));
+
+	}
+
+}

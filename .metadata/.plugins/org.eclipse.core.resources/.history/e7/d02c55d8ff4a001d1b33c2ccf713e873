@@ -1,0 +1,10 @@
+package com.cog.junit.model;
+
+public class Model {
+	
+	private int id;
+	private String name;
+	
+	
+
+}

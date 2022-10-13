@@ -1,0 +1,9 @@
+package com.cog.junit.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cog.junit.model.Person;
+
+public interface PersonRepository extends JpaRepository<Person, Integer>{
+
+}

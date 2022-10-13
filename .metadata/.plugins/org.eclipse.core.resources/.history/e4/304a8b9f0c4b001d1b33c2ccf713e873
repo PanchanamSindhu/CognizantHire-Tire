@@ -1,0 +1,17 @@
+package com.cog.junit.controllertest;
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.cog.junit.repository.PersonRepository;
+
+
+@ExtendWith(MockitoExtension.class)
+public class PersonControllerTest {
+	
+	@Mock
+	PersonRepository pr;
+	
+
+}

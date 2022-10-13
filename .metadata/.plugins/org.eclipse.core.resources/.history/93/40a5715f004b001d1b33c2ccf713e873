@@ -1,0 +1,5 @@
+package com.cog.junit.repository;
+
+public interface PersonRepository {
+
+}

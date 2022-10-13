@@ -1,0 +1,19 @@
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.ZoneId;
+
+public class TimeAPI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDate date=LocalDate.now();
+		System.out.println(date+" today's date");
+		LocalDate specificDate=LocalDate.of(1996, Month.OCTOBER, 18);
+		System.out.println("Specific date :"+specificDate);
+		
+		LocalDate todayStandardTime=LocalDate.now(ZoneId.of("Asia/kolkata"));
+		System.out.println("current date in ISD :"+todayStandardTime);
+
+	}
+
+}

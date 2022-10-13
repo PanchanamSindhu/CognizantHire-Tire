@@ -1,0 +1,19 @@
+
+public class Main implements Display {
+	
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+
+	}
+
+	
+
+}

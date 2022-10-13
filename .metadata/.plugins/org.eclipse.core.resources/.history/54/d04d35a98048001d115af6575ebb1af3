@@ -1,0 +1,8 @@
+
+public class JavaForEach {
+	List l1=new List[];
+	public static void main(String[] args) {
+		
+	}
+
+}

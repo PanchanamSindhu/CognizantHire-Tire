@@ -1,0 +1,6 @@
+@FunctionalInterface
+public interface Display {
+	void show();//one abstarct method
+	
+
+}

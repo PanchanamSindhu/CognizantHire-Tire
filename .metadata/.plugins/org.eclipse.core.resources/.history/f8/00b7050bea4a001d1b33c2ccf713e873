@@ -1,0 +1,14 @@
+package com.sample.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.sample.repository.PersonInterface;
+
+public class PersonService {
+	
+	@Autowired
+	private PersonInterface pf;
+	
+	
+
+}

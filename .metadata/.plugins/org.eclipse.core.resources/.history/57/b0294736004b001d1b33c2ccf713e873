@@ -1,0 +1,6 @@
+package com.cog.junit.service;
+
+@service
+public class PersonService {
+
+}

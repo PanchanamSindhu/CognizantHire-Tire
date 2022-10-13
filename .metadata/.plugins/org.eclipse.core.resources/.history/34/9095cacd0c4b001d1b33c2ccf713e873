@@ -1,0 +1,5 @@
+package com.cog.junit.servicetest;
+
+public class PersonServiceTest {
+
+}

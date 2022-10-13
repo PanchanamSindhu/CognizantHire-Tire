@@ -1,0 +1,28 @@
+package com.sample.JunitDemo.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.sample.entity.Person;
+import com.sample.service.PersonInterface;
+
+
+	
+	public class PersonService {
+
+		@Autowired
+		private PersonInterface pf;
+
+		public List<Person> getPersons() {
+			return pf.findAll();
+		}
+
+		public PersonService() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+
+	}
+
+

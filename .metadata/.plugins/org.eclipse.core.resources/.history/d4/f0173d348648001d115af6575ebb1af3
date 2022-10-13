@@ -1,0 +1,10 @@
+
+public class OptionalDemo {
+	
+	public static void main(String[] args) {
+		String str=new String();
+		String lowerCase=str.toLowerCase();
+		System.out.println("Lower case :"+lowerCase);
+	}
+
+}

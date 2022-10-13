@@ -1,0 +1,19 @@
+
+public class Main{
+	
+	public static void main(String[] args) {
+		
+	
+	Display d1=()->{
+		System.out.println("hello ");
+	};
+	Display d2=(a,b)->{
+		
+	}
+	
+	d1.show();
+
+	}
+		
+
+}

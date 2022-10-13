@@ -1,0 +1,19 @@
+
+public class Main implements Display {
+	
+	@Override
+	public void show() {
+		System.out.println("inside abstarct display method");
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+
+	}
+
+	
+
+}

@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Test {
+
+	/*
+	 * mapToDouble() method returns a DoubleStream consisting of the results of
+	 * applying the given function to the elements of this stream
+	 **/
+
+	public double calculateAverage(List<Employee> employeeList) {
+		return employeeList.stream().mapToDouble(e -> e.getSalary()).average().getAsDouble();
+	}
+
+	public List<Employee> empRole(List<Employee> employeeList) {
+		List<Employee> result = employeeList.stream().filter(p -> p.getRole().equalsIgnoreCase("SE"))
+				.map(p->p.setSalary((p.getSalary()*0.9))
+				.collect(Collectors.toList());
+
+		return result;
+
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test t = new Test();
+		List<Employee> empList = new ArrayList<Employee>();
+		Employee e1 = new Employee("John", 23, 14000, "SE");
+		Employee e2 = new Employee("Bob", 24, 25000, "analyst");
+		Employee e3 = new Employee("Tom", 25, 26000, "SE");
+		empList.add(e1);
+		empList.add(e2);
+		empList.add(e3);
+
+		System.out.println("Employes average salary is :" + t.calculateAverage(empList));
+		System.out.println("Employes Who's Role is SE :" + t.empRole(empList));
+	}
+
+}

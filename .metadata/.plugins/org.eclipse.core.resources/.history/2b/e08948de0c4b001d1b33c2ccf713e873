@@ -1,0 +1,6 @@
+package com.cog.junit.servicetest;
+
+@ExtendWith(MockitoExtension.class)
+public class PersonServiceTest {
+
+}
