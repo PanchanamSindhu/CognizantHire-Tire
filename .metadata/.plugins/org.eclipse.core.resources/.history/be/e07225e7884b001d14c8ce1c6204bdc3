@@ -1,0 +1,13 @@
+package com.digitalbook.entity;
+/**
+ * 
+ * @author Sindhu
+ * Role entity is used for declaring role details
+ *
+ */
+
+@Entity
+@Table(name = "roles")
+public class Role {
+
+}

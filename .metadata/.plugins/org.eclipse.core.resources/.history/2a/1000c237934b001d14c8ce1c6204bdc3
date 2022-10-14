@@ -1,0 +1,15 @@
+package com.digitalbook.serviceImpl;
+
+import com.digitalbook.entity.ERole;
+import com.digitalbook.entity.User;
+import com.digitalbook.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public User getUser(int userId, ERole roleUser) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

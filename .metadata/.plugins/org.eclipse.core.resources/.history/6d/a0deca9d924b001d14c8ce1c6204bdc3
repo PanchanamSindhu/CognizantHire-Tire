@@ -1,0 +1,5 @@
+package com.digitalbook.service;
+
+public interface UserService {
+
+}

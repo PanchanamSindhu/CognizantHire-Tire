@@ -1,0 +1,9 @@
+package com.digitalbook.controller;
+
+import org.springframework.stereotype.Controller;
+
+@RestController
+@RequestMapping("/digitalbooks")
+public class BookController {
+
+}

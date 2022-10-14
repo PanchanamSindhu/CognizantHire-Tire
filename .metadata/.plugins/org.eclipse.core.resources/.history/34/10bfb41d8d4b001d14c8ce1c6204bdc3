@@ -1,0 +1,5 @@
+package com.digitalbook.repository;
+
+public interface BookRepository {
+
+}

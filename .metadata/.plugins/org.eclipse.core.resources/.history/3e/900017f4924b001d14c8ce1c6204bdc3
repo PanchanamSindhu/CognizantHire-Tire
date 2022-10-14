@@ -1,0 +1,13 @@
+package com.digitalbook.service;
+
+import com.digitalbook.entity.ERole;
+import com.digitalbook.entity.User;
+
+public interface UserService {
+
+	public User getUser(int authorId, ERole roleAuthor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

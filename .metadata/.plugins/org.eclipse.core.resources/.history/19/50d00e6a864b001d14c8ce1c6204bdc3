@@ -1,0 +1,6 @@
+package com.digitalbook.entity;
+
+public enum BookCategory {
+
+	ADVENTURE, ACTION, THRILLER, FICTION, COMEDY, ROMANTIC
+}

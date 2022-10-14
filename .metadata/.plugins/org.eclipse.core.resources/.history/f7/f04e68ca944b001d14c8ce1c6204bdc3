@@ -1,0 +1,24 @@
+package com.digitalbook.serviceImpl;
+
+import com.digitalbook.entity.Book;
+import com.digitalbook.service.BookService;
+
+/**
+* 
+* @author sindhu
+* This is BookServiceImpl class which is used for running methods from controller
+*/
+
+public class BookServiceImpl implements BookService {
+
+	@Override
+	public Book saveBook(Book book) {
+		Book book = null;
+		Optional<Book> bookOptional = bookRepository.findByTitle(title);
+		if(bookOptional.isPresent()) {
+			book = bookOptional.get();
+		}
+		return book;
+	}
+
+}

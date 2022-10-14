@@ -48,7 +48,8 @@ public class TimeAPI {
 		System.out.println("duration gap between time1" + " & time2 is " + durationGap);
 		
 		/*
-		 * A standard set of date periods units. This set of units provide unit-based access to manipulate a date, time or date-time. 
+		 * A standard set of date periods units. This set of units provide unit-based access to manipulate a date,
+		 *  time or date-time. 
 		 * The standard set of units can be extended by implementing TemporalUnit .
 		 */
 

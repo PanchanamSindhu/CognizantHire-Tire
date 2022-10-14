@@ -1,0 +1,8 @@
+package com.digitalbook.entity;
+
+@Data
+@Entity
+@Table(	name = "book")
+public class Book {
+
+}

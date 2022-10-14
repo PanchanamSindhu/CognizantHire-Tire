@@ -1,0 +1,17 @@
+package com.digitalbook.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.digitalbook.entity.Role;
+
+
+/**
+ * 
+ * @author sindhu
+ * This is RoleRepository which is used for saving role details and fetching role details from db
+ *
+ */
+public interface RoleRepository extends JpaRepository<Role, Integer>{
+	Optional<Role> findByName(ERole name);
+
+}

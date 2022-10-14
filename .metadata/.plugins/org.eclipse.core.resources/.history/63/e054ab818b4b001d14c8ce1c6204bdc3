@@ -1,0 +1,11 @@
+package com.digitalbook.entity;
+
+/**
+* 
+* @author sindhu
+* BookAuthor entity is used for sending book details and email id for email service
+*
+*/
+public class BookAuthor {
+
+}

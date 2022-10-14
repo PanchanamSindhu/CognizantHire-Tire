@@ -1,0 +1,6 @@
+package com.digitalbook.controller;
+
+@controller
+public class BookController {
+
+}

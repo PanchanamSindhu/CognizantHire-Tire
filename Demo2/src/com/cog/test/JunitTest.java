@@ -39,7 +39,7 @@ class JunitTest {
 	@Disabled
 	public void multiplyNumbers() {
 		System.out.println("test case for multiplication of two values");
-		assertEquals(50, Sample1.add(10, 5));
+		assertEquals(50, Sample1.multiply(10, 5));
 
 	}
 

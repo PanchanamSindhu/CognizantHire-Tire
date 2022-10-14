@@ -1,0 +1,5 @@
+package com.digitalbook.serviceImpl;
+
+public class BookServiceImpl {
+
+}

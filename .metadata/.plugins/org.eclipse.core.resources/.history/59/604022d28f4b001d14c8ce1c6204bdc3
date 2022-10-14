@@ -1,0 +1,6 @@
+package com.digitalbook.service;
+
+public interface BookService {
+	public Book saveBook(Book book);
+
+}

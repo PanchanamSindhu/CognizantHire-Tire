@@ -7,5 +7,8 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665583712428_3" label="DigitalBooks" name="DigitalBooks"/>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665657977364_4" label="JunitDemo" name="JunitDemo"/>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665665196909_5" label="Junit" name="Junit"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665726546340_6" label="digitalbook" name="digitalbook">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/digitalbook" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665391620538_2" label="Window Working Set" name="Aggregate for window 1665391620538"/>
 </workingSetManager>

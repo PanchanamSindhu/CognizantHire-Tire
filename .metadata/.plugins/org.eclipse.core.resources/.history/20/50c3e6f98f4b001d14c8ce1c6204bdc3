@@ -1,0 +1,11 @@
+package com.digitalbook.serviceImpl;
+
+import com.digitalbook.service.BookService;
+
+/**
+* 
+* @author sindhu
+* This is BookServiceImpl which is used for running methods from controller
+public class BookServiceImpl implements BookService {
+
+}

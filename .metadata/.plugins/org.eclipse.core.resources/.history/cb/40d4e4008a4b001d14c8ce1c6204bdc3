@@ -1,0 +1,15 @@
+package com.digitalbook.entity;
+
+/**
+ * 
+ * @author sindhu 
+ User entity is used for declaring the details of user with
+ *         roles author or reader and validation of user details
+ *
+ */
+
+@Entity
+@Table(name = "users")
+public class User {
+
+}
