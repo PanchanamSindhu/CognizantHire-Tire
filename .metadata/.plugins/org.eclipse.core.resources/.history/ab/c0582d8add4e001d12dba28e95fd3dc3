@@ -1,0 +1,10 @@
+package com.cog.SecurityDemo.model;
+
+public class User {
+	@id
+	private long id;
+	private String userName;
+	private String passWord;
+	
+
+}

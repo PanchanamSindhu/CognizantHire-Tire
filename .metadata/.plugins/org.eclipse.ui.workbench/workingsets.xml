@@ -22,5 +22,8 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666082443035_10" label="SpringBoot" name="SpringBoot">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SpringBoot" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666091536413_11" label="SecurityDemo" name="SecurityDemo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SecurityDemo" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665391620538_2" label="Window Working Set" name="Aggregate for window 1665391620538"/>
 </workingSetManager>

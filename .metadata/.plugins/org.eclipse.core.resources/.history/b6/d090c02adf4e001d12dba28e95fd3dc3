@@ -1,0 +1,5 @@
+package com.cog.SecurityDemo.config;
+
+public class AppSecurityConfig {
+
+}
