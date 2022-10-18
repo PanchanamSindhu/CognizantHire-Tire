@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Demo2" project="Demo2" tests="3" started="3" failures="0" errors="0" ignored="1">
-  <testsuite name="com.cog.test.JunitTest" time="0.037" displayname="JunitTest" uniqueid="[engine:junit-jupiter]/[class:com.cog.test.JunitTest]">
-    <testcase name="addNumbers" classname="com.cog.test.JunitTest" time="0.022" displayname="addNumbers()" uniqueid="[engine:junit-jupiter]/[class:com.cog.test.JunitTest]/[method:addNumbers()]"/>
-    <testcase name="multiplyNumbers" classname="com.cog.test.JunitTest" time="0.0" ignored="true" displayname="multiplyNumbers()" uniqueid="[engine:junit-jupiter]/[class:com.cog.test.JunitTest]/[method:multiplyNumbers()]"/>
-    <testcase name="reverseString" classname="com.cog.test.JunitTest" time="0.015" displayname="reverseString()" uniqueid="[engine:junit-jupiter]/[class:com.cog.test.JunitTest]/[method:reverseString()]"/>
-  </testsuite>
-</testrun>

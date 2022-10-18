@@ -1,0 +1,8 @@
+package com.cog.SpringBoot.service;
+
+public interface CustomerService {
+	
+	public List<Customer> getCustomer();
+	
+
+}

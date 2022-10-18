@@ -1,0 +1,12 @@
+package com.cog.SpringBootRest.serviceimpl;
+
+import org.springframework.stereotype.Service;
+
+import com.cog.SpringBootRest.service.CourseService;
+
+@Service
+public class CourseServiceImpl implements CourseService{
+	
+	
+
+}

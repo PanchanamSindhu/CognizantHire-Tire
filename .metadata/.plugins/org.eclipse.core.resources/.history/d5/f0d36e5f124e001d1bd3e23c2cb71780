@@ -1,0 +1,5 @@
+package com.cog.Student.entity;
+
+public class Student {
+
+}

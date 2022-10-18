@@ -1,0 +1,15 @@
+package com.cog.SpringBootRest.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cog.SpringBootRest.service.CourseService;
+
+@RestController
+public class CourseController {
+	
+	@Autowired
+	private CourseService courseService;
+	
+
+}

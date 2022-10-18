@@ -1,0 +1,32 @@
+package com.cog.SpringBoot.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cog.SpringBoot.model.Customer;
+import com.cog.SpringBoot.service.CustomerService;
+
+@RestController
+@RequestMapping("/customer")
+public class CustomerController {
+	
+	@Autowired
+	private CustomerService cs;
+	
+	@GetMapping(value="/getcustomer")
+	public List<Customer> getCustomerDetails(){
+		return this.cs.getCustomer();
+	}
+	
+	@PostMapping(value="/addcustomer")
+	public List<Customer> addCustomer(@RequestBody Customer customer){
+		return this.cs.getCustomer();
+	}
+
+}

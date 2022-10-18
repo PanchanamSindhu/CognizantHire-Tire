@@ -1,0 +1,10 @@
+package com.cog.SpringBootRest.coursedao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cog.SpringBootRest.entity.Course;
+
+public interface CourseDAO extends JpaRepository<Course, Long>{
+	
+
+}

@@ -1,0 +1,9 @@
+package com.cog.SpringBoot.rpository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cog.SpringBoot.model.Customer;
+
+public interface CustomerRepository extends JpaRepository<Customer, Integer>{
+
+}

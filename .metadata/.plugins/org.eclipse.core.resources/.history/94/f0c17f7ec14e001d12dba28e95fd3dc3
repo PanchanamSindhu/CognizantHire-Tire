@@ -1,0 +1,11 @@
+package com.cog.SpringBoot.model;
+
+public class Customer {
+	
+	@id
+	private int custID;
+	private String name;
+	
+	
+
+}

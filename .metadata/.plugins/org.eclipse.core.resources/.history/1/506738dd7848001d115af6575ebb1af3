@@ -1,8 +1,0 @@
-@FunctionalInterface
-public interface Display {
-	void show();//only one abstarct method
-	static void print() {
-		System.out.println("static method");
-	}
-
-}

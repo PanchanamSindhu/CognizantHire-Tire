@@ -1,0 +1,5 @@
+package com.cog.SpringBootRest.entity;
+
+public class Course {
+
+}

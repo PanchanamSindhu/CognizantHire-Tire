@@ -1,0 +1,19 @@
+package com.cog.SpringBoot.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="customer")
+@Entity
+public class Customer {
+	
+	@Id
+	private int custID;
+	private String name;
+	
+	
+	
+	
+
+}

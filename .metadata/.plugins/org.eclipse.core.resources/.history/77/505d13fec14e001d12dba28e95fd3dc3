@@ -1,0 +1,5 @@
+package com.cog.SpringBoot.rpository;
+
+public interface CustomerRepository {
+
+}
